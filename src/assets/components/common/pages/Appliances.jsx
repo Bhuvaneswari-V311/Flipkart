@@ -38,7 +38,7 @@ function Appliances() {
   };
 
   const homeDecorProducts = [
-    { img: "src/assets/images/matress.jpg", title: "Mattress", price: "From ₹2,990" },
+    { img: "src/assets/images/matress.jpg", title: "Mattress", price: "From ₹2,900" },
     { img: "src/assets/images/sofa.jpg", title: "Sofa & Sectional", price: "From ₹7,990" },
     { img: "src/assets/images/chair.jpg", title: "Chairs", price: "From ₹1,890" },
     { img: "src/assets/images/beds.jpg", title: "Beds", price: "From ₹1,790" },
