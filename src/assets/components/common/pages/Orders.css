@@ -1,0 +1,140 @@
+/* .orders-container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.product-scroll-container {
+  position: relative;
+  background-color: white;
+  padding: 10px 0;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.products {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 10px;
+  padding: 10px 20px;
+  scrollbar-width: none;
+}
+
+.products::-webkit-scrollbar {
+  display: none;
+}
+
+.product {
+  flex: 0 0 16.66%; 
+  box-sizing: border-box;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 10px 12px;
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.scroll-btn.left {
+  left: 10px;
+}
+
+.scroll-btn.right {
+  right: 10px;
+}
+
+.scroll-btn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+} */
+
+
+
+
+
+
+
+ 
+.orders-container {
+  padding: 20px;
+}
+
+.section-wrapper {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+
+
+.product-scroll-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.scroll-btn {
+  background-color: #eee;
+  border: none;
+  font-size: 1.5rem;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.products {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  margin: 10px;
+}
+
+.product {
+  flex: 0 0 auto;
+  margin: 0 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 6px;
+} 
+.product-scroll-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+ .booking-outside {
+  margin-left: 10px;
+  width: 200px;
+  height: 200%;
+  flex-shrink:0;
+}
+
+.booking-outside img {
+  width: 100%;
+  height: 100%;
+  object-fit:contain;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}  
